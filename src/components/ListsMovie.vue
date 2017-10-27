@@ -13,7 +13,7 @@ export default {
   props: ['movies', 'profile', 'logout', 'updateAddItem', 'updateSubItem'],
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'อย่าบอกใครนะว่าเป็นคนแบบนี้'
     }
   }
 }
