@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="listmovie">
     <h2>{{ profile.displayName }}</h2>
     <div class="" v-for="movie in movies">
       <router-link :to="'/movie/' + movie['.key']">{{movie.title}}</router-link>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'listmovie',
   props: ['movies', 'profile', 'logout', 'updateAddItem', 'updateSubItem'],
   data () {
     return {
