@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 h3, h4 {
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 ul {
