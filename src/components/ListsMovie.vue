@@ -13,7 +13,6 @@ export default {
   props: ['movies', 'profile', 'logout', 'updateAddItem', 'updateSubItem'],
   data () {
     return {
-      msg: 'ไม่ใช้แล้วก็ลบไปครับ'
     }
   }
 }
